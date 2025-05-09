@@ -4,7 +4,7 @@ type Type =
 	| { tag: "Boolean" }
 	| { tag: "Number" }
 
-type Term = 
+type Term =
   | { tag: "true" }
   | { tag: "false" }
   | { tag: "if"; cond: Term; thn: Term; els: Term}
