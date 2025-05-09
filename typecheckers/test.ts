@@ -1,3 +1,3 @@
-import { parseArith } from '../tiny-ts-parser.ts';
+import { parse } from '../tiny-ts-parser.ts';
 
-console.log(parseArith("100"));
+console.log(parse("1 + 2"))
